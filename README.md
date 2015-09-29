@@ -8,9 +8,9 @@ A small utility which allows to remotely deploy WAR applications  on JBoss
 
 #Usage
 
-From a different host, just execute ´jboss-client.sh` with next parameters:
+From a different host, just execute `jboss-client.sh` script with next parameters:
 
-`./jboss-client.sh start` starts jboss server
-`./jboss-client.sh stop` stops jboss server
-`./jboss-client.sh log` allows you to interactive monitor server logs
-`./jboss-client.sh deploy <path_to_war` allows you to remotely deploy war applications
+* `./jboss-client.sh start` starts jboss server
+* `./jboss-client.sh stop` stops jboss server
+* `./jboss-client.sh log` allows you to interactive monitor server logs
+* `./jboss-client.sh deploy <path_to_war` allows you to remotely deploy war applications
