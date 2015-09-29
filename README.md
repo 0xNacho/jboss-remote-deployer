@@ -1,4 +1,4 @@
-# jboss-remote-deplyer
+# jboss-remote-deployer
 A small utility which allows to remotely deploy WAR applications  on JBoss
 
 #Installation
