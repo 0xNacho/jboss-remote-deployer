@@ -29,7 +29,7 @@ echo "Showing server.log..."
 tail -500f $JBOSS_LOG_DIR/server.log
 ;;
 *)
-echo "Usage: /etc/init.d/jboss-as {start|stop}"
+echo "Usage: /etc/init.d/jboss-as {start|stop|log}"
 exit 1
 ;;
 esac
