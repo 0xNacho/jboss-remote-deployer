@@ -1,5 +1,7 @@
 # jboss-remote-deployer
-A small utility which allows to remotely deploy WAR applications  on JBoss
+A small utility which allows to remotely deploy WAR applications  on JBoss.
+
+This is really useful when you are debugging apps in remote servers, and you don't want to waste your time configuring ant or maven scripts.
 
 #Installation
 
