@@ -14,3 +14,5 @@ From a different host, just execute `jboss-client.sh` script with next parameter
 * `./jboss-client.sh stop` stops jboss server
 * `./jboss-client.sh log` allows you to interactive monitor server logs
 * `./jboss-client.sh deploy <path_to_war>` allows you to remotely deploy war applications
+
+Optionaly, you can `mv jboss-client.sh MyServer && mv MyServer /usr/local/bin`  in order to execute this tool in a more confortable way (no matter what path you are in).
