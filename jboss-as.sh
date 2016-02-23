@@ -22,7 +22,7 @@ start-stop-daemon --start --quiet --background --chuid $JBOSS_USER --exec $JBOSS
 ;;
 stop)
 echo "Stopping JBoss AS... Wait a few seconds :)"
-start-stop-daemon --start --quiet --background --chuid $JBOSS_USER --exec $JBOSS_DIR/bin/shutdown.sh -- -S
+ $JBOSS_DIR/bin/shutdown.sh -s $JBOSS_HOST
 ;;
 log)
 echo "Showing server.log..."
